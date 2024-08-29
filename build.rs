@@ -17,6 +17,7 @@ fn add_spectre_link_search() {
         "x86" => "x86",
         "aarch64" => "arm64",
         "arm" => "arm32",
+        "arm64ec" => "arm64ec",
         _ => panic!("unsupported arch: {arch}"),
     };
 
